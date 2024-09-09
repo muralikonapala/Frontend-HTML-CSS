@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "Outfit";
+    src: url("Outfit-VariableFont_wght.ttf");
+}
+body{
+    background-color:rgb(238, 221, 200);
+    font-family: "Outfit";
+}
+.bg-container{
+    max-width: 460px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 10px;
+    padding: 20px;
+    color:rgb(49, 47, 47)
+}
+.image{
+    width: 460px;
+    border-radius: 10px;
+}
+@font-face {
+    font-family: "Young-Serif";
+    src: url("YoungSerif-Regular.ttf");
+}
+h1{
+    font-family: "Young-Serif";
+    font-size: 28px;
+}
+h3{
+    color: rgb(114, 17, 17);
+    font-family: "Young-Serif";
+}
+h4{
+    color:rgb(106, 5, 87);
+    font-weight: bold;
+}
+.description{
+    font-size: 11px;
+}
+.content-preperation{
+    background-color: rgb(252, 240, 251);
+    max-width: 460px;
+    padding: 1px 15px;
+    border-radius: 6px;
+}
+ul, ol{
+    font-size: 11px;
+    margin-bottom: 20px;
+    padding-inline-start: 5px;
+    font-family: 'Outfit';
+}
+ul li::marker, ol li::marker{
+    color:rgb(114, 17, 17);
+    font-weight: bold;
+}
+li{
+    margin: 10px;
+    padding-left: 15px;
+}
+p{
+    font-size: 11px;
+}
+table{
+    border-collapse: collapse;
+    font-size: 11px;
+}
+td{
+    text-align: left;
+    padding: 8px 180px 8px 15px;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    text-align: left;
+    padding-right: 180px;
+    border-bottom: 1px solid #ddd;
+    color: rgb(114, 17, 17);
+}
